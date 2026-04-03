@@ -192,26 +192,6 @@ To test protected endpoints in Swagger:
 3. Enter: `Bearer <your-token>`
 4. All subsequent requests will include the token
 
----
-
-## Screenshots
-
-### Login Page
-![Login Page](finance-dashboard-ui/src/assets/hero.png)
-
-### ADMIN Role — Dashboard
-> Full access: Dashboard, Records (add/edit/delete), Users management
-
-### ANALYST Role — Dashboard
-> Read access: Dashboard, Records (view + filter only), no Users tab
-
-### VIEWER Role — Dashboard
-> Read-only access: Dashboard, Records (view + filter only), no Users tab
-
-> Add your screenshots to a `screenshots/` folder and update the paths above.
-
----
-
 ## Getting Started
 
 ### Prerequisites
@@ -271,6 +251,9 @@ Frontend starts on `http://localhost:5173`
 | DB auto DDL             | `update` (auto-creates tables) |
 
 ---
+##SCREENSHOTS
+##-----------
+
 ##BACKEND PROJECT STRUCTURE IN ECLIPSE 
 <img width="438" height="812" alt="Screenshot 2026-04-03 230323" src="https://github.com/user-attachments/assets/17d62758-2405-4a20-97e9-59b6ebd35ed3" />
 
