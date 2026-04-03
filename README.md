@@ -251,23 +251,24 @@ Frontend starts on `http://localhost:5173`
 | DB auto DDL             | `update` (auto-creates tables) |
 
 ---
-##SCREENSHOTS
-##-----------
+## SCREENSHOTS
+## -----------
 
-##BACKEND PROJECT STRUCTURE IN ECLIPSE 
+BACKEND PROJECT STRUCTURE IN ECLIPSE 
 <img width="438" height="812" alt="Screenshot 2026-04-03 230323" src="https://github.com/user-attachments/assets/17d62758-2405-4a20-97e9-59b6ebd35ed3" />
 
 <img width="955" height="859" alt="Screenshot 2026-04-03 210224" src="https://github.com/user-attachments/assets/f1fd1b9a-e3ce-41ec-bafe-914078a570f8" />
 
 
 
-##JWT AUTHENTICATION
+JWT AUTHENTICATION
 
 <img width="986" height="487" alt="Screenshot 2026-04-03 223716" src="https://github.com/user-attachments/assets/d990972b-eba0-4b59-a80d-c674bab7eb93" />
 <img width="987" height="502" alt="Screenshot 2026-04-03 223612" src="https://github.com/user-attachments/assets/ebd45342-a3a0-440b-b842-c80b45939a79" />
 <img width="995" height="508" alt="Screenshot 2026-04-03 224325" src="https://github.com/user-attachments/assets/e6c3b52b-d003-430b-b701-7a25a4188182" />
 
-##UI IMPLEMENTATION TO ENSURE PROPER CONNECTION AND WORKING OF ROUTES
+
+UI IMPLEMENTATION TO ENSURE PROPER CONNECTION AND WORKING OF ROUTES
 <img width="1919" height="920" alt="Screenshot 2026-04-03 223104" src="https://github.com/user-attachments/assets/6e60854d-2a77-45c6-8638-3df753bcfebf" />
 <img width="1919" height="956" alt="Screenshot 2026-04-03 223211" src="https://github.com/user-attachments/assets/c5483e31-915e-411e-9916-7f7b17609671" />
 <img width="1919" height="921" alt="Screenshot 2026-04-03 223218" src="https://github.com/user-attachments/assets/62478088-27c9-4c15-bbbf-1445d365f7fa" />
@@ -279,7 +280,7 @@ Frontend starts on `http://localhost:5173`
 
 
 
-##SWAGGER UI IMPLEMENTATION
+SWAGGER UI IMPLEMENTATION
 <img width="925" height="797" alt="Screenshot 2026-04-03 222636" src="https://github.com/user-attachments/assets/bb09a240-4269-4427-898e-2956d965b175" />
 <img width="944" height="754" alt="Screenshot 2026-04-03 222055" src="https://github.com/user-attachments/assets/1ec027b3-0117-4e30-aa53-298f65f3d308" />
 
