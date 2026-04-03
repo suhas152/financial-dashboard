@@ -1,0 +1,13 @@
+package com.finance;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class FinanceDashboardApplicationTests {
+	System.out.println("Running.......");
+	@Test
+	void contextLoads() {
+	}
+
+}

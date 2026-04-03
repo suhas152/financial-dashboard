@@ -1,0 +1,17 @@
+import { Navigate } from "react-router-dom";
+
+// adminOnly = true means only ADMIN can access
+export default function ProtectedRoute({ children, adminOnly = false }) {
+  const token = localStorage.getItem("token");
+  const role = localStorage.getItem("role");
+
+  if (!token) {
+    return <Navigate to="/login" replace />;
+  }
+
+  if (adminOnly && role !== "ADMIN") {
+    return <Navigate to="/access-denied" replace />;
+  }
+
+  return children;
+}

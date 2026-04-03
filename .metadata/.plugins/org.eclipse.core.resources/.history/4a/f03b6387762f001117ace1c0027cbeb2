@@ -1,0 +1,55 @@
+package com.finance.controller;
+
+import java.util.List;
+
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.security.core.Authentication;
+import org.springframework.web.bind.annotation.*;
+
+import com.finance.dto.FinancialRecordRequest;
+import com.finance.dto.FinancialRecordResponse;
+import com.finance.service.FinancialRecordService;
+
+import jakarta.validation.Valid;
+import lombok.RequiredArgsConstructor;
+
+@RestController
+@RequestMapping("/api/records")
+@RequiredArgsConstructor
+public class FinancialRecordController {
+
+    private final FinancialRecordService financialRecordService;
+
+    @PreAuthorize("hasRole('ADMIN')")
+    @PostMapping
+    public FinancialRecordResponse createRecord(@Valid @RequestBody FinancialRecordRequest request,
+                                                Authentication authentication) {
+        return financialRecordService.createRecord(request, authentication.getName());
+    }
+
+    @PreAuthorize("hasAnyRole('ADMIN','ANALYST','VIEWER')")
+    @GetMapping
+    public List<FinancialRecordResponse> getAllRecords() {
+        return financialRecordService.getAllRecords();
+    }
+
+    @PreAuthorize("hasAnyRole('ADMIN','ANALYST','VIEWER')")
+    @GetMapping("/{id}")
+    public FinancialRecordResponse getRecordById(@PathVariable Long id) {
+        return financialRecordService.getRecordById(id);
+    }
+
+    @PreAuthorize("hasRole('ADMIN')")
+    @PutMapping("/{id}")
+    public FinancialRecordResponse updateRecord(@PathVariable Long id,
+                                                @Valid @RequestBody FinancialRecordRequest request) {
+        return financialRecordService.updateRecord(id, request);
+    }
+
+    @PreAuthorize("hasRole('ADMIN')")
+    @DeleteMapping("/{id}")
+    public String deleteRecord(@PathVariable Long id) {
+        financialRecordService.deleteRecord(id);
+        return "Record deleted successfully";
+    }
+}

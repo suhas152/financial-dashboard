@@ -1,0 +1,49 @@
+package com.finance.controller;
+
+import java.util.List;
+
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.web.bind.annotation.*;
+
+import com.finance.dto.UpdateUserRoleRequest;
+import com.finance.dto.UpdateUserStatusRequest;
+import com.finance.dto.UserResponse;
+import com.finance.service.UserService;
+
+import jakarta.validation.Valid;
+import lombok.RequiredArgsConstructor;
+
+@RestController
+@CrossOrigin
+@RequestMapping("/api/users")
+@RequiredArgsConstructor
+public class UserController {
+
+    private final UserService userService;
+
+    @PreAuthorize("hasRole('ADMIN')")
+    @GetMapping
+    public List<UserResponse> getAllUsers() {
+        return userService.getAllUsers();
+    }
+
+    @PreAuthorize("hasRole('ADMIN')")
+    @GetMapping("/{id}")
+    public UserResponse getUserById(@PathVariable Long id) {
+        return userService.getUserById(id);
+    }
+
+    @PreAuthorize("hasRole('ADMIN')")
+    @PatchMapping("/{id}/role")
+    public UserResponse updateUserRole(@PathVariable Long id,
+                                       @Valid @RequestBody UpdateUserRoleRequest request) {
+        return userService.updateUserRole(id, request);
+    }
+
+    @PreAuthorize("hasRole('ADMIN')")
+    @PatchMapping("/{id}/status")
+    public UserResponse updateUserStatus(@PathVariable Long id,
+                                         @Valid @RequestBody UpdateUserStatusRequest request) {
+        return userService.updateUserStatus(id, request);
+    }
+}
