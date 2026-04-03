@@ -258,6 +258,7 @@ Frontend starts on `http://localhost:5173`
 
 ---
 
+
 ## Environment Configuration
 
 | Config                  | Value                          |
@@ -271,6 +272,28 @@ Frontend starts on `http://localhost:5173`
 
 ---
 
-## License
+##JWT AUTHENTICATION
 
-MIT
+<img width="986" height="487" alt="Screenshot 2026-04-03 223716" src="https://github.com/user-attachments/assets/d990972b-eba0-4b59-a80d-c674bab7eb93" />
+<img width="987" height="502" alt="Screenshot 2026-04-03 223612" src="https://github.com/user-attachments/assets/ebd45342-a3a0-440b-b842-c80b45939a79" />
+<img width="995" height="508" alt="Screenshot 2026-04-03 224325" src="https://github.com/user-attachments/assets/e6c3b52b-d003-430b-b701-7a25a4188182" />
+
+##UI IMPLEMENTATION TO ENSURE PROPER CONNECTION AND WORKING OF ROUTES
+<img width="1919" height="920" alt="Screenshot 2026-04-03 223104" src="https://github.com/user-attachments/assets/6e60854d-2a77-45c6-8638-3df753bcfebf" />
+<img width="1919" height="956" alt="Screenshot 2026-04-03 223211" src="https://github.com/user-attachments/assets/c5483e31-915e-411e-9916-7f7b17609671" />
+<img width="1919" height="921" alt="Screenshot 2026-04-03 223218" src="https://github.com/user-attachments/assets/62478088-27c9-4c15-bbbf-1445d365f7fa" />
+<img width="1919" height="962" alt="Screenshot 2026-04-03 223308" src="https://github.com/user-attachments/assets/bd216ca5-bddf-467f-85e5-6e105bd9801d" />
+<img width="1915" height="970" alt="Screenshot 2026-04-03 223321" src="https://github.com/user-attachments/assets/a906136f-6e87-4fef-829e-7bae965a63f7" />
+<img width="1919" height="961" alt="Screenshot 2026-04-03 223415" src="https://github.com/user-attachments/assets/0460d0a5-dbc6-42a2-bc9e-ce24433b3b00" />
+<img width="1919" height="946" alt="Screenshot 2026-04-03 223501" src="https://github.com/user-attachments/assets/b6fa078c-f04d-442f-b00e-696c435f000e" />
+<img width="1919" height="903" alt="Screenshot 2026-04-03 223455" src="https://github.com/user-attachments/assets/fd4b1489-129f-4e5e-989f-73938a957f5b" />
+
+
+
+##SWAGGER UI IMPLEMENTATION
+<img width="925" height="797" alt="Screenshot 2026-04-03 222636" src="https://github.com/user-attachments/assets/bb09a240-4269-4427-898e-2956d965b175" />
+<img width="944" height="754" alt="Screenshot 2026-04-03 222055" src="https://github.com/user-attachments/assets/1ec027b3-0117-4e30-aa53-298f65f3d308" />
+
+<img width="934" height="843" alt="Screenshot 2026-04-03 222116" src="https://github.com/user-attachments/assets/9a0adafa-11ff-4112-875c-6208cbaa4eaf" />
+
+
