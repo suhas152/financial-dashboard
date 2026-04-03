@@ -271,6 +271,12 @@ Frontend starts on `http://localhost:5173`
 | DB auto DDL             | `update` (auto-creates tables) |
 
 ---
+##BACKEND PROJECT STRUCTURE IN ECLIPSE 
+<img width="438" height="812" alt="Screenshot 2026-04-03 230323" src="https://github.com/user-attachments/assets/17d62758-2405-4a20-97e9-59b6ebd35ed3" />
+
+<img width="955" height="859" alt="Screenshot 2026-04-03 210224" src="https://github.com/user-attachments/assets/f1fd1b9a-e3ce-41ec-bafe-914078a570f8" />
+
+
 
 ##JWT AUTHENTICATION
 
